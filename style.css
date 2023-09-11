@@ -1,0 +1,40 @@
+body{
+    background-color: #116A7B;
+
+}
+.main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+
+}
+.box{
+    min-width: 400px;
+    min-height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background: rgba( 255, 255, 255, 0.15 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 10px );
+    -webkit-backdrop-filter: blur( 10px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+span{
+    padding: 10px;
+    color: white;
+    font-size: 25px;
+}
+#start , #stop,#reset{
+    padding: 15px;
+    border-radius: 5px;
+    background:#116A7B;
+    border: none;
+    color:white;
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 50px;
+}

@@ -23,8 +23,8 @@ reset.addEventListener("click",()=>{
     sec = 0;
     milsec = 0;
     millisecond.innerHTML='00';
-minutes.innerHTML='00';
-seconds.innerHTML='00';
+    minutes.innerHTML='00';
+    seconds.innerHTML='00';
 })
 function stopwatch(){
     if (timer) {
@@ -39,11 +39,11 @@ function stopwatch(){
             min++;
             sec= 0;
         }   
-        // if(min==60){
-        //     min++;
-        //     sec=0;
-        //     milsec=0;
-        // }
+        if(min==60){
+            min++;
+            sec=0;
+            milsec=0;
+        }
         
         let minString = min;
         let secString = sec;
